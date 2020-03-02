@@ -131,10 +131,14 @@
 #define LUA_INT_LONG		2
 #define LUA_INT_LONGLONG	3
 
+#define LUA_INT_TYPE LUA_INT_INT
+
 /* predefined options for LUA_FLOAT_TYPE */
 #define LUA_FLOAT_FLOAT		1
 #define LUA_FLOAT_DOUBLE	2
 #define LUA_FLOAT_LONGDOUBLE	3
+
+#define LUA_FLOAT_TYPE LUA_FLOAT_FLOAT
 
 #if defined(LUA_32BITS)		/* { */
 /*
